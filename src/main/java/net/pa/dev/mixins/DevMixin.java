@@ -1,9 +1,12 @@
 package net.pa.dev.mixins;
 
 import net.minecraft.client.gui.screen.TitleScreen;
+import net.pa.dev.Dev;
 import org.spongepowered.asm.mixin.Mixin;
 
-@Mixin(TitleScreen.class)
-public class DevMixin {
+/**
+ * Initializing The Mixin
+ */
 
-}
+@Mixin(TitleScreen.class)
+public class DevMixin {}
